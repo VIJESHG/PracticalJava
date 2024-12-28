@@ -68,7 +68,8 @@ public class _1_DataTypes {
             System.out.print(num + " ");
         }
     }
-}```
+}
+```
 
 ## SwitchExpressions
 
@@ -76,7 +77,8 @@ File: _2_SwitchExpressions.java
 
 This file demonstrates the use of switch expressions in Java, which provide a more concise and flexible way to handle multiple conditions.
 
-```public class _2_SwitchExpressions {
+```java
+public class _2_SwitchExpressions {
     enum Day {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
     }
@@ -96,7 +98,8 @@ This file demonstrates the use of switch expressions in Java, which provide a mo
         };
         System.out.println("Day of the week: " + dayName);
     }
-}```
+}
+```
 
 ## StringOperations
 
@@ -104,7 +107,8 @@ File: _3_StringOperations.java
 
 This file demonstrates various string operations in Java, including concatenation, length, substring, comparison, case conversion, searching, and replacing.
 
-```public class _3_StringOperations {
+``` java
+public class _3_StringOperations {
     public static void main(String[] args) {
         String str1 = "Hello";
         String str2 = "World";
@@ -122,7 +126,8 @@ This file demonstrates various string operations in Java, including concatenatio
         System.out.println("Does concatenated contain 'Java'? " + concatenated.contains("Java"));
         System.out.println("Replaced String: " + concatenated.replace("World", "Universe"));
     }
-}```
+}
+```
 
 ## InputOutputs
 
@@ -130,7 +135,8 @@ File: _4_InputOutputs.java
 
 This file demonstrates various input and output operations in Java, including reading user input using Scanner and BufferedReader, and displaying output using System.out.print, System.out.println, and System.out.printf.
 
-```import java.io.BufferedReader;
+``` java
+import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Scanner;
@@ -164,7 +170,8 @@ public class _4_InputOutputs {
 
         scanner.close();
     }
-}```
+}
+```
 
 ## ConditionalStatements
 
@@ -172,7 +179,8 @@ File: _5_ConditionalStatements.java
 
 This file demonstrates various conditional statements in Java, including if, if-else, else-if, and switch.
 
-```import java.util.Scanner;
+``` java
+import java.util.Scanner;
 
 public class _5_ConditionalStatements {
     public static void main(String[] args) {
@@ -232,7 +240,8 @@ public class _5_ConditionalStatements {
 
         scanner.close();
     }
-}```
+}
+```
 
 ## Loops
 
@@ -240,7 +249,8 @@ File: _6_Loops.java
 
 This file demonstrates various loop constructs in Java, including for, while, do-while, and nested loops.
 
-```public class _6_Loops {
+``` java
+public class _6_Loops {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
             System.out.println("For Loop Iteration: " + i);
@@ -280,16 +290,17 @@ This file demonstrates various loop constructs in Java, including for, while, do
             System.out.println(i);
         }
     }
-}```
+}
+```
 
 ## Arrays
 
-Arrays
 File: _7_Arrays.java
 
 This file demonstrates various operations on arrays in Java, including declaration, initialization, accessing elements, modifying elements, iterating over arrays, and performing array operations like finding the maximum, minimum, and calculating the sum.
 
-```public class _7_Arrays {
+```java 
+public class _7_Arrays {
     public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
         System.out.println("Array Elements: ");
@@ -357,7 +368,8 @@ This file demonstrates various operations on arrays in Java, including declarati
             System.out.print(number + " ");
         }
     }
-}```
+}
+```
 
 ## Class Relationships
 
@@ -365,7 +377,8 @@ File: _8_ClassRelationshipsDemo.java
 
 This file demonstrates various class relationships in Java, including association, aggregation, composition, and inheritance.
 
-```public class _8_ClassRelationshipsDemo {
+```java
+public class _8_ClassRelationshipsDemo {
     public static void main(String[] args) {
         Car car = new Car("Toyota");
         Engine engine = new Engine("V8");
@@ -500,7 +513,8 @@ class Dog extends Animal {
     public void bark() {
         System.out.println("Woof! Woof!");
     }
-}```
+}
+```
 
 ## Class Constructors
 
@@ -508,7 +522,8 @@ File: _9_ClassConstructors.java
 
 This file demonstrates various types of constructors in Java, including default constructors, parameterized constructors, and copy constructors.
 
-```public class _9_ClassConstructors {
+```java 
+public class _9_ClassConstructors {
     public static void main(String[] args) {
         Employee emp1 = new Employee();
         emp1.displayInfo();
@@ -556,4 +571,5 @@ class Employee {
     public void displayInfo() {
         System.out.println("Employee ID: " + id + ", Name: " + name + ", Salary: " + salary);
     }
-}```
+}
+```
