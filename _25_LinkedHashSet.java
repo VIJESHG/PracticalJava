@@ -104,6 +104,4 @@ public class _25_LinkedHashSet {
        employees.clear();
        System.out.println("Is the LinkedHashSet empty? " + employees.isEmpty()); // Should return true
    }
-} {
-    
 }
