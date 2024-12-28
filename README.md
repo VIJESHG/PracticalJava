@@ -352,7 +352,9 @@ public class _7_Arrays {
             System.out.println("Element " + elementToFind +"not found");
         }
 
+        {% raw %}
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        {% endraw %}
         System.out.println("2D Matrix: ");
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
